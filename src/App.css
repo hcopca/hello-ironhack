@@ -1,38 +1,64 @@
-.App {
-  text-align: center;
+.navbar {
+  background-color: rgb(32, 37, 52);
 }
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.nav-top {
   display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
+  justify-content: space-between;
+  padding-left: 3%;
+  padding-right: 3%;
+}
+
+.texto {
+  width: 400px;
+}
+
+.texto h1 {
+  color: white;
+  font-size: 70px;
+  font-weight: bold;
+}
+.texto p {
   color: white;
 }
 
-.App-link {
-  color: #61dafb;
+.texto-inside {
+  font-size: 18px;
+  width: 300px;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+/* Pendiente */
+.awesome {
+  font-size: 10px;
+  margin-top: 10px;
+  margin-left: 5%;
+  padding: 10px 10px;
+  font-weight: bold;
+  margin-bottom: 30px;
+}
+
+.features {
+  margin-top: 5%;
+  margin-bottom: 5%;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: baseline;
+  align-content: stretch;
+}
+
+.componente {
+  width: 15%;
+}
+
+.encabezado {
+  font-size: 1 rem;
+  font-weight: bold;
+  text-align: left;
+}
+
+.explicacion {
+  font-size: 0.7 rem;
+  text-align: left;
+  color: gray;
 }
